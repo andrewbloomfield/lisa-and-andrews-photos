@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 21 - https://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/fontawesome7.min.css" rel="stylesheet">
+<link href="css/photo_upload.css" rel="stylesheet">
+<link href="css/gallery.css" rel="stylesheet">
+<script src="jquery-3.7.1.min.js"></script>
+<script src="jquery.ui.effect.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $("a[href*='#header']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_header').offset().top }, 600, 'easeOutCirc');
+   });
+});
+</script>
+</head>
+<body>
+<div id="wb_header">
+<div id="header">
+<div class="row">
+<div class="col-1">
+<div id="wb_headerIcon" style="display:inline-block;width:47px;height:42px;text-align:center;z-index:0;">
+<div id="headerIcon"><i class="fa fa-venus-mars"></i></div>
+</div>
+<div id="wb_headerLogo" style="display:inline-block;width:134px;height:47px;z-index:1;vertical-align:top;">
+<ul id="headerLogo">
+<li><a href="index.html#welcome">Wedding</a></li>
+</ul>
+
+</div>
+</div>
+<div class="col-2">
+<div id="wb_headerMenu" style="display:block;width:100%;z-index:2;">
+<ul id="headerMenu" role="menubar" class="nav">
+<li role="menuitem" class="nav-item firstmain"><a class="nav-link headerMenu-effect" href="./index.html#LayoutGrid2" target="_self">UPLOAD&nbsp;PHOTO</a>
+</li>
+<li role="menuitem" class="nav-item"><a class="nav-link headerMenu-effect" href="./gallery.html" target="_self">GALLERY</a>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="Html2" style="position:absolute;left:4px;top:66px;width:100%;height:100px;z-index:4">
+<iframe
+src="https://script.google.com/macros/s/AKfycbxdmRfwRSgHhPzH9tUjZGvUZKYOnjceC0z8v_ebdGfetZ8bMC6b1gHqheWKjohPgIqGXg/exec"
+width="100%"
+height="600"
+style="border:0;">
+</iframe>
+</div>
+</body>
+</html>
